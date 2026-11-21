@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CORTIS WORLD — The Ultimate Fan Experience</title>
+<meta name="description" content="CORTIS WORLD: unofficial fan-made site for K-pop group CORTIS.">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="ld-logo">CORTIS</div><div class="ld-bar"><span></span></div></div>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo">CORTIS<span>.</span></a>
+  <nav id="menu" aria-label="Main">
+    <a href="#members">Members</a><a href="#about">About</a><a href="#discography">Discography</a><a href="#gallery">Gallery</a><a href="#news">News</a>
+  </nav>
+  <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">◐</button>
+  <button id="burger" class="icon-btn" aria-label="Menu" aria-expanded="false"><i></i><i></i></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="grid-bg"></div>
+  <div class="hero-in">
+    <p class="eyebrow">BIGHIT MUSIC · Young Creator Crew</p>
+    <h1 class="hero-logo">CORTIS</h1>
+    <h2>Welcome to CORTIS WORLD</h2>
+    <p class="sub">The Ultimate Fan Experience</p>
+    <a href="#members" class="btn">Explore <span>↓</span></a>
+  </div>
+  <div class="hero-photo ph" data-img="hero-group.jpg"><em>Group photo<br>assets/images/hero-group.jpg</em></div>
+  <div class="marquee"><div>COLOR OUTSIDE THE LINES &nbsp;•&nbsp; MARTIN &nbsp;•&nbsp; JAMES &nbsp;•&nbsp; JUHOON &nbsp;•&nbsp; SEONGHYEON &nbsp;•&nbsp; KEONHO &nbsp;•&nbsp; COLOR OUTSIDE THE LINES &nbsp;•&nbsp; MARTIN &nbsp;•&nbsp; JAMES &nbsp;•&nbsp; JUHOON &nbsp;•&nbsp; SEONGHYEON &nbsp;•&nbsp; KEONHO &nbsp;•&nbsp;</div></div>
+</section>
+
+<section id="members" class="sec">
+  <div class="head reveal"><span class="tag">01</span><h2>Members</h2><p>Five members, no fixed positions — everyone creates.</p></div>
+  <div class="members" id="memberGrid"></div>
+  <p class="note reveal">Profiles are compiled from public sources. Check official channels for the latest information.</p>
+</section>
+
+<section id="about" class="sec alt">
+  <div class="head reveal"><span class="tag">02</span><h2>About</h2><p>The story so far.</p></div>
+  <div class="about">
+    <div class="reveal"><h3>Who they are</h3>
+      <p>CORTIS is a five-member South Korean boy group formed by BIGHIT MUSIC (HYBE) — the label’s third boy group after BTS and TXT. They describe themselves as a “young creator crew”: all members take part in songwriting, production, choreography and video work.</p>
+      <h3>The name</h3>
+      <p>CORTIS is built from six letters of the phrase <b>COLOR OUTSIDE THE LINES</b> — a call to think freely and break free from the world’s standards.</p>
+      <h3>Debut</h3>
+      <p>The group debuted on <b>August 18, 2025</b> with the single “What You Want”, followed by the debut EP <b>COLOR OUTSIDE THE LINES</b> on September 8, 2025. Its songs were developed at a song camp in Los Angeles. In May 2026 came the second EP, <b>GREENGREEN</b>.</p>
+    </div>
+    <div class="timeline reveal" id="timeline"></div>
+  </div>
+  <div class="facts" id="facts"></div>
+</section>
+
+<section id="discography" class="sec">
+  <div class="head reveal"><span class="tag">03</span><h2>Discography</h2><p>Official releases, covers are fan-made artwork.</p></div>
+  <div class="discs" id="discGrid"></div>
+  <div class="platforms reveal"><span>Listen on</span>
+    <a href="https://open.spotify.com/search/CORTIS" target="_blank" rel="noopener">Spotify</a>
+    <a href="https://music.apple.com/artist/1831651635" target="_blank" rel="noopener">Apple Music</a>
+    <a href="https://www.youtube.com/@cortis_bighit" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://www.melon.com/search/total/index.htm?q=CORTIS" target="_blank" rel="noopener">Melon</a>
+  </div>
+</section>
+
+<section id="gallery" class="sec alt">
+  <div class="head reveal"><span class="tag">04</span><h2>Gallery</h2><p>Click a tile to open. Add your own photos to <code>assets/images/</code>.</p></div>
+  <div class="gallery" id="galleryGrid"></div>
+</section>
+
+<section id="news" class="sec">
+  <div class="head reveal"><span class="tag">05</span><h2>News</h2><p>Latest updates as of November 21, 2026.</p></div>
+  <div class="news" id="newsGrid"></div>
+</section>
+</main>
+
+<footer>
+  <div class="f-top"><div class="logo">CORTIS<span>.</span> WORLD</div>
+    <div class="soc">
+      <a href="https://www.instagram.com/cortis" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/cortis_bighit" target="_blank" rel="noopener">X</a>
+      <a href="https://www.youtube.com/@cortis_bighit" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.tiktok.com/@cortis_bighit" target="_blank" rel="noopener">TikTok</a>
+    </div></div>
+  <p class="disc">CORTIS WORLD is an unofficial, fan-made, non-commercial project. It is not affiliated with, endorsed by or connected to CORTIS, BIGHIT MUSIC or HYBE. All names, trademarks and images belong to their respective owners.</p>
+  <p class="copy">© <span id="year"></span> CORTIS WORLD — made by fans, for COER.</p>
+</footer>
+
+<button id="toTop" aria-label="Back to top">↑</button>
+<div id="lightbox" aria-hidden="true"><button class="lb-x" aria-label="Close">✕</button><button class="lb-n prev" aria-label="Previous">‹</button><div class="lb-view"><div id="lbImg"></div><p id="lbCap"></p></div><button class="lb-n next" aria-label="Next">›</button></div>
+<script src="script.js"></script>
+</body>
+</html>
