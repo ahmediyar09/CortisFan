@@ -4,11 +4,11 @@ const IMG = 'assets/images/';
 
 /* ---------- DATA (facts from public sources; add photos to assets/images/) ---------- */
 const members = [
- {n:'Martin', f:'martin.jpg', bio:'Canadian-born member who joined BigHit Music as a trainee around 2019–2020.', facts:['Sang in the children’s choir at the 2018 PyeongChang Winter Olympics','Credited on the debut EP, like every member']},
- {n:'James', f:'james.jpg', bio:'The only member of the former “Trainee A” line who stayed at BigHit through to the debut lineup.', facts:['Contributes to music, choreography and visuals','Group has no fixed positions']},
- {n:'Juhoon', f:'juhoon.jpg', bio:'Appeared in commercials and music videos before joining BigHit Music as a trainee in 2023–2024.', facts:['Helped write four songs on the debut EP, incl. “What You Want” and “FaSHioN”']},
- {n:'Seonghyeon', f:'seonghyeon.jpg', bio:'Born in Daejeon, South Korea.', facts:['Listed MBTI: INTP','Part of the self-producing “young creator crew”']},
- {n:'Keonho', f:'keonho.jpg', bio:'Joined BigHit Music in 2021 after a competitive swimming background.', facts:['Swam competitively until 6th grade','Helped on four EP songs incl. “JoyRide” and took part in the choreography of “GO!”']}
+ {n:'Martin', f:'Martin.jpg', bio:'Canadian-born member who joined BigHit Music as a trainee around 2019–2020.', facts:['Sang in the children’s choir at the 2018 PyeongChang Winter Olympics','Credited on the debut EP, like every member']},
+ {n:'James', f:'James.jpg', bio:'The only member of the former “Trainee A” line who stayed at BigHit through to the debut lineup.', facts:['Contributes to music, choreography and visuals','Group has no fixed positions']},
+ {n:'Juhoon', f:'Juhoon.jpg', bio:'Appeared in commercials and music videos before joining BigHit Music as a trainee in 2023–2024.', facts:['Helped write four songs on the debut EP, incl. “What You Want” and “FaSHioN”']},
+ {n:'Seonghyeon', f:'Seonghyeon.jpg', bio:'Born in Daejeon, South Korea.', facts:['Listed MBTI: INTP','Part of the self-producing “young creator crew”']},
+ {n:'Keonho', f:'Seonho.jpg', bio:'Joined BigHit Music in 2021 after a competitive swimming background.', facts:['Swam competitively until 6th grade','Helped on four EP songs incl. “JoyRide” and took part in the choreography of “GO!”']}
 ];
 const timeline = [
  ['APR 2025','Group formed under BIGHIT MUSIC'],
