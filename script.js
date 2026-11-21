@@ -1,6 +1,6 @@
 (() => {
 const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
-const IMG = 'assets/images/';
+const IMG = './';
 
 /* ---------- DATA (facts from public sources; add photos to assets/images/) ---------- */
 const members = [
